@@ -1,0 +1,26 @@
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+  }
+  
+  * {
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+  
+  .paragrafos {
+    max-width: 640px;
+    margin: 90px auto;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 25px;
+  }

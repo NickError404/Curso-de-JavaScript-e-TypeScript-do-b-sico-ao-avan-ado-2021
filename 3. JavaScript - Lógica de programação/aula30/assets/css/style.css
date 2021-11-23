@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+    --primary-color: rgba(19, 200, 245, 0.747);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.8em;
+}
+
+.container {
+    max-width: 300px;
+    margin: 180px auto;
+    background:rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}   
+

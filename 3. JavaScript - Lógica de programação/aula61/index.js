@@ -5,7 +5,7 @@
  * os valores são retornados atráves do yield
  * os valores da função só podem ser extraídos atráves da função dos geradores next()
  * também podemos chamar todos os dados da função com um laço for, pois ele sabe quando é o final dos dados
- * AS chamadas são contadas a partir de quantas vezes que a função foi solicitada, exemplos abaixo.
+ * As chamadas são contadas a partir de quantas vezes que a função foi solicitada em ordem respectiva do código, exemplos abaixo.
  */
 
 

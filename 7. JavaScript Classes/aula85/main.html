@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validando formulário</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<div class="container">
+    <div class="row">
+        <div class="about">
+            <div class="row">
+                <label for="text" id="about">
+                    • Nenhum campo pode estar vazio.
+                </label>
+            </div>
+            <div class="row">
+                <label for="text" id="about">
+                    • Usuário só poderá conter palavras ou números,
+                </label>
+            </div>
+            <div class="row">
+                <label for="text" id="txtabout2 about">
+                    • Usuário só deverá ter entre 3 e 1 caracteres.
+                </label>
+            </div>
+            <div class="row">
+                <label for="text" id="about">
+                    • A senha precisa de ter entre 6 a 12 caracteres.
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h1 id="title">Formulário de cadastro</h1>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtName">Nome</label>
+        </div>
+        <div class="column-9 column input">
+            <input type="text" id="txtName" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtSubName">Sobrenome</label>
+        </div>
+        <div class="column-9 column input">
+            <input type="text" id="txtSubName" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtCPF">CPF</label>
+        </div>
+        <div class="column-9 column input">
+            <input type="text" id="txtCPF" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtUser">Usuário</label>
+        </div>
+        <div class="column-9 column input">
+            <input type="text" id="txtUser" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtPassword">Senha</label>
+        </div>
+        <div class="column-9 column input">
+            <input type="text" id="txtPass" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="column-3 column label">
+            <label for="txtPassword">Repetir Senha</label>
+        </div>
+        <div class="column-9 column input">
+            <input type="text" id="txtRepPass" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="button">
+            <button id="button">Enviar</button>
+        </div>
+    </div>
+</div>
+
+<body>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

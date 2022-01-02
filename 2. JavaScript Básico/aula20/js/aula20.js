@@ -15,11 +15,11 @@ function meuEscopo () {
     const resultado = document.querySelector(".resultado");
 
 
-    // form.onsubmit = function (evento) {
-    //     evento.preventDefault();
-    //     alert('Clicado caralho');
-    //     console.log('Foi enviado');
-    // };
+    form.onsubmit = function (evento) {
+        evento.preventDefault();
+        alert('Clicado caralho');
+        console.log('Foi enviado');
+    };
 
     const pessoas = [];
 

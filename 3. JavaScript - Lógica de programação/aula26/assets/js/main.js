@@ -56,11 +56,9 @@ function criaP () {
     return p;
 }
 
-
 function setResultado (msg, isValid) {
     const resultado = document.querySelector('#resultado');
     resultado.innerHTML = '';
-
     
     const p = criaP();
 

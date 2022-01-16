@@ -11,28 +11,12 @@
 
 <div class="container">
     <div class="row">
-        <div class="about">
-            <div class="row">
-                <label for="text" id="about">
-                    • Nenhum campo pode estar vazio.
-                </label>
-            </div>
-            <div class="row">
-                <label for="text" id="about">
-                    • Usuário só poderá conter palavras ou números,
-                </label>
-            </div>
-            <div class="row">
-                <label for="text" id="txtabout2 about">
-                    • Usuário só deverá ter entre 3 e 1 caracteres.
-                </label>
-            </div>
-            <div class="row">
-                <label for="text" id="about">
-                    • A senha precisa de ter entre 6 a 12 caracteres.
-                </label>
-            </div>
-        </div>
+        <ul>
+            <li>• Nenhum campo pode estar vazio.</li>
+            <li>• Usuário só poderá conter palavras ou números,</li>
+            <li>• Usuário só deverá ter entre 3 e 1 caracteres.</li>
+            <li>• A senha precisa de ter entre 6 a 12 caracteres.</li>
+        </ul>
     </div>
     <div class="row">
         <h1 id="title">Formulário de cadastro</h1>
@@ -74,7 +58,7 @@
             <label for="txtPass">Senha</label>
         </div>
         <div class="column-9 column input">
-            <input type="text" class="txtPass" />
+            <input type="password" class="txtPass" />
         </div>
     </div>
     <div class="row">
@@ -82,12 +66,12 @@
             <label for="txtRepPass">Repetir Senha</label>
         </div>
         <div class="column-9 column input">
-            <input type="text" class="txtRepPass" />
+            <input type="password" class="txtRepPass" />
         </div>
     </div>
     <div class="row">
         <div class="button">
-            <button id="button">Enviar</button>
+            <button type="submit" id="button">Enviar</button>
         </div>
     </div>
 </div>
